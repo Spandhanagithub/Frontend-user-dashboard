@@ -1,0 +1,147 @@
+
+
+.supportContainer {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.description-textarea {
+    width: 500px;
+    height: 15px;
+}
+.supportContainer h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.supportContainer p {
+    margin-bottom: 10px;
+}
+
+.supportContainer form {
+    margin-top: 10px;
+}
+
+.supportContainer .label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.supportContainer .input-field {
+    width: 500px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.supportContainer select {
+    width: 500px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 35px;
+}
+
+.supportContainer .textarea-field {
+    width: 500px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.supportContainer .file-field {
+    margin-top: 5px;
+}
+
+.supportContainer .buttonsContainer {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.supportContainer .submitButton,
+.supportContainer .cancelButton {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.supportContainer .submitButton {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.supportContainer .cancelButton {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.supportContainer .submitButton:hover,
+.supportContainer .cancelButton:hover {
+    background-color: #0056b3;
+}
+
+
+.inputField {
+    width: 480px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+.inputField:required {
+    border-color: #9b9a9a; 
+}
+
+.inputField:invalid {
+    box-shadow: none;
+}
+
+
+.descriptionTextarea {
+    width: 500px;
+    height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .supportContainer {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .supportContainer h1 {
+        font-size: 20px;
+    }
+
+    .supportContainer .buttonsContainer {
+        text-align: center;
+    }
+
+    .supportContainer .submitButton,
+    .supportContainer .cancelButton {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .supportContainer .input-field,
+    .supportContainer select,
+    .supportContainer .textarea-field {
+        font-size: 14px;
+    }
+}

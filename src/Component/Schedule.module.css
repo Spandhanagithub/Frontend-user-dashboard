@@ -1,0 +1,95 @@
+
+
+.scheduleContainer {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.scheduleContainer h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.scheduleContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+.scheduleContainer label {
+    margin-bottom: 10px;
+}
+
+.scheduleContainer textarea,
+.scheduleContainer select,
+.scheduleContainer input[type="date"],
+.scheduleContainer input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.scheduleContainer select[multiple] {
+    height: auto;
+}
+
+.scheduleContainer table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.scheduleContainer table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.scheduleContainer .manualDateTime {
+    display: flex;
+    gap: 10px;
+}
+
+.scheduleContainer button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.scheduleContainer button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .scheduleContainer {
+        padding: 10px;
+    }
+
+    .scheduleContainer h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .scheduleContainer form {
+        flex-direction: column;
+    }
+
+    .scheduleContainer table td {
+        padding: 6px;
+    }
+
+    .scheduleContainer .manualDateTime {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .scheduleContainer button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
